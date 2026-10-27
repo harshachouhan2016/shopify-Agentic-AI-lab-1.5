@@ -1,0 +1,21 @@
+{
+  "name": "product-data-utility",
+  "version": "1.0.0",
+  "type": "module",
+  "main": "clean-products.js",
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "clean": "node clean-products.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@anthropic-ai/sdk": "^1.3.0",
+    "dotenv": "^18.0.9"
+  }
+}
